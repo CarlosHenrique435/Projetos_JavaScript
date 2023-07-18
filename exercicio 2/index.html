@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+    <style>
+        body{
+            background-color: bisque;
+            font: 25px arial;
+            color: rgb(175, 78, 78);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola mundo</h1>
+    <script>
+        var n1 = Number(prompt('Digite um valor'))
+        var n2 = Number(prompt("Digite outro valor"))
+        var soma = n1 + parseFloat(n2)
+        alert(`A soma do valor ${n1} + ${n2} é ${soma.toString()}`)
+
+        var name = prompt("Digite seu nome")
+        alert(`O nome ${name} tem ao total ${name.length} letras\n
+        O nome ${name} em maiusculas fica ${name.toUpperCase()}\n
+        Em minusculas ${name.toLowerCase()}`)
+
+
+    </script>
+</body>
+</html>
