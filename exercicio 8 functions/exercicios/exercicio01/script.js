@@ -25,13 +25,13 @@ function inlista(num, l){
 function tudo(){
     final.innerHTML = ''
     if (valores.length == 0){
-        final.innerHTML = "Nenhum numero encontrado"
+        final.innerHTML = "<p>Nenhum numero encontrado</p>"
     }else{
-        final.innerHTML = `O vetor contem ${valores.length} valores`
-        final.innerHTML += `<br>A soma dos valores é ${soma()}`
-        final.innerHTML += `<br>A media dos valores é ${media()}`
-        final.innerHTML += `<br>O maior valor do array é ${maior()}`
-        final.innerHTML += `<br>O menor valor do array é ${menor()}`
+        final.innerHTML = `<p>O vetor contem ${valores.length} valores</p>`
+        final.innerHTML += `<p><br>A soma dos valores é ${soma()}</p>`
+        final.innerHTML += `<p><br>A media dos valores é ${media()}</p>`
+        final.innerHTML += `<p><br>O maior valor do array é ${maior()}</p>`
+        final.innerHTML += `<p><br>O menor valor do array é ${menor()}</p>`
     }
 }
 
