@@ -1,0 +1,16 @@
+const ojs=document.getElementsByTagName('div')
+
+let num = [10, 20, 30, 40]
+for(let i = 0; i<num.length;i++){
+    console.log(num[i])
+}
+
+
+// for of
+for(key of ojs){
+    console.log(key.innerHTML='curso')
+}
+//for in
+for(key in ojs){
+    console.log(key)
+}
