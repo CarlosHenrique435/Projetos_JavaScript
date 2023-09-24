@@ -1,4 +1,4 @@
-const ojs=document.getElementsByTagName('div')
+const ojs= document.getElementsByTagName('div')
 
 let num = [10, 20, 30, 40]
 for(let i = 0; i<num.length;i++){
@@ -6,7 +6,7 @@ for(let i = 0; i<num.length;i++){
 }
 
 
-// for of
+// for of itera diretamento com os elementos da coleção
 for(key of ojs){
     console.log(key.innerHTML='curso')
 }
