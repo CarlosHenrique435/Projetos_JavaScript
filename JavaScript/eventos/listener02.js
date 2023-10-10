@@ -13,8 +13,10 @@ todos.map((elemento)=>{
 
 btn.addEventListener('click', ()=>{
     const selecionados =[... document.querySelectorAll('.selecionar')]
+
     selecionados.map((elm)=>{
         caixa2.appendChild(elm)
+        console.log(elm)
     })
 })
 
