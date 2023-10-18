@@ -8,6 +8,7 @@ todos.map((elemento)=>{
     elemento.addEventListener('click', (evt)=>{
         const curso = evt.target
         curso.classList.toggle('selecionar')
+        console.log(curso)
     })
 })
 
@@ -15,8 +16,15 @@ btn.addEventListener('click', ()=>{
     const selecionados =[... document.querySelectorAll('.selecionar')]
 
     selecionados.map((elm)=>{
-        caixa2.appendChild(elm)
-        console.log(elm)
+        if (elm.parentNode == caixa1){
+            caixa2.appendChild(elm)
+            console.log(elm)
+        }
+        else{
+            caixa1.appendChild(elm)
+        }
+        console.log(elm.parentNode)
+        
     })
 })
 
